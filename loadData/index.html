@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body,.wrapper{
+            height: 100%;
+        }
+        ul,li{
+            list-style: none;
+            height: 40px;
+            line-height: 40px;
+        }
+        .top{
+            position: fixed;
+            top:0;
+            width: 100%;
+            background-color: #fff;
+            height: 40px;
+            padding:10px;
+            font-size: 16px;
+        }
+        .container{
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <p class="top"></p>
+        <div style="height: 60px;"></div>
+        <ul class="container">
+            <a class="sentinels">...</a>
+        </ul>
+    </div>
+    
+    <script src="js/loadLotOfData.js"></script>
+</body>
+</html>
